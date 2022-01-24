@@ -1,5 +1,6 @@
 " Vim Plug
 call plug#begin('~/.vim/plugged')
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
@@ -42,3 +43,5 @@ set expandtab
 imap jj <Esc>
 
 set noswapfile
+
+set mouse=a
