@@ -100,7 +100,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Vim Key Bindings
+bindkey -v
+
+# Load fzf Config
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Vim Keybindings
-bindkey -v
