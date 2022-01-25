@@ -6,6 +6,7 @@ Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'mattn/emmet-vim'
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 let g:user_emmet_leader_key='<Tab>'
@@ -45,3 +46,7 @@ imap jj <Esc>
 set noswapfile
 
 set mouse=a
+
+syntax enable
+set background=dark
+colorscheme solarized
